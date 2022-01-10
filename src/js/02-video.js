@@ -10,9 +10,7 @@ console.log(player);
 
 const onPlay = function (data) {
     const value = data.currentTime;
-    if(localStorage.currentTime) {
-        value = localStorage.currentTime;
-   }
+   
     
    console.log(value);
     const time = localStorage.setItem("videoplayer-current-time", value);
