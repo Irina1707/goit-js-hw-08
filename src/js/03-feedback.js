@@ -18,6 +18,8 @@ function onInput(event) {
     localStorage.setItem('feedback-form-state', JSON.stringify(formData));
 }
 
+populateForm()
+
 function onFormSubmit(event) {
     event.preventDefault();
 
